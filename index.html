@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Reservia</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="top-page">
+                <header>
+                    <div id="logo-menu">
+                        <a href="#"><img src="./images/logo/Reservia.svg" id="logo" alt="logo-reservia"/></a>
+                    </div>
+                    <div id="menu">
+                        <nav id="nav-bar">
+                            <ul>
+                                <li><a id="NB1" href="#sections-hebergement"> Hébergements </a></li>
+                                <li><a id="NB2" href="#activites-marseille"> Activités </a></li>
+                                <li><a id="NB3" href="#"> <strong> S'inscrire </strong></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+                <div id="text-top-page">
+                    <h1 id="main-text">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p id="subtitle">En plein centre ville ou en pleine nature</p>
+                </div>
+                <form id="search-bar" method="POST">
+                    <div id="logo-container">
+                        <img src="./images/logo/marker.svg" id="logo-marker" alt="logo-marker"/>
+                    </div>               
+                    <input id="ville" placeholder="Marseille, France" type="text" name="ville"/>
+                    <button type="submit" id="rechercher"><img id='logo-loupe' src='./images/loupe.svg' alt='zoom-icon'/>
+                        <div id="search-word"><strong>Rechercher</strong></div></button>
+                </form>
+
+                <div id="filtres">
+                    <div id="filtre"><strong> Filtres</strong></div>
+                    <div id="filtre-mobile-row">
+                        <div class='filtre' >
+                            <div class="icon-filtres" >
+                                <img id="money-icon" src="./images/money.svg" alt='money-icon'/> 
+                            </div>
+                            <div class="txt-filtre">Économique</div>
+                        </div>
+                        <div class='filtre'>
+                            <div class="icon-filtres">
+                                <img id="man-icon" src="./images/man.svg" alt='man-icon'/> 
+                            </div>
+                            <div class="txt-filtre">Famille</div>
+                        </div>
+                    </div>
+                    <div class='filtre'>
+                        <div class="icon-filtres">
+                            <img id="heart-icon" src="./images/heart.svg" alt='heart-icon'/> 
+                        </div>
+                        <div class="txt-filtre">Romantique</div>
+                    </div>
+                    <div class='filtre'>
+                        <div class="icon-filtres">
+                            <img id="dog-icon" src="./images/dog.svg" alt='dog-icon'/> 
+                        </div>
+                        <div class="txt-filtre">Animaux autorisés</div>
+                    </div>
+                </div>
+
+                <div id="infos-logement">
+                    <img src='./images/info-solid.svg' id='info-icon' alt="info-icon"/>
+                    <div id="info-log"> Plus de 500 logements sont disponibles dans cette ville</div>
+                </div>
+            </div>
+
+            <div id="sections-hebergement">
+                <section id="heberg-marseille">
+                    <h2>Hébergements à Marseille</h2>
+                    <div id="sec-etiquettes">
+                        <div id="sec_part1">
+                            <div class="etiquette">
+                                <img class="img-etiq" src="./images/litsuper.jpg" alt="lit-superpose"/>
+                                <div class="txt-etiq"><strong>Auberge la Cannebière</strong></div>
+                                <div class="sub-etiq">Nuit à partir de <strong>25€</strong></div>
+                                <div class="etoiles">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                            <div class="etiquette">
+                                <img class="img-etiq" src="./images/heber2.jpg" alt="hebergement2"/>
+                                <div class="txt-etiq"><strong>Hôtel du port</strong></div>
+                                <div class="sub-etiq">Nuit à partir de 52<strong>€</strong></div>
+                                <div class="etoiles">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+
+                            <div class="etiquette">
+                                <img class="img-etiq" src="./images/heber3.jpg" alt="hebergement3"/>
+                                <div class="txt-etiq"><strong>Hôtel Les mouettes</strong></div>
+                                <div class="sub-etiq">Nuit à partir de 76<strong>€</strong></div>
+                                <div class="etoiles">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sec_part2">
+                            <div class="etiquette">
+                                <img class="img-etiq" src="./images/mer.jpg" alt="hebergement-mer"/>
+                                <div class="txt-etiq"><strong>Hôtel de la mer</strong></div>
+                                <div class="sub-etiq">Nuit à partir de 46<strong>€</strong></div>
+                                <div class="etoiles">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                            <div class="etiquette">
+                                <img class="img-etiq" src="./images/auberge.jpg" alt="hebergement-auberge"/>
+                                <div class="txt-etiq"><strong>Auberge le panier</strong></div>
+                                <div class="sub-etiq">Nuit à partir de <strong>23€</strong></div>
+                                <div class="etoiles">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                            <div class="etiquette">
+                                <img class="img-etiq" src="./images/amina.jpg" alt="hebergement-amina"/>
+                                <div class="txt-etiq"><strong>Hôtel chez Amina</strong></div>
+                                <div class="sub-etiq">Nuit à partir de 96<strong>€</strong></div>
+                                <div class="etoiles">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href='#'><p><strong>Afficher plus</strong></p></a>
+                </section>
+
+                <section id="populaires">
+                    <div id='top-section-populaires'>
+                        <h2>Les plus populaires</h2>
+                        <img id="arrow-icon" src="./images/arrow.svg" alt="arrow-graph-icon"/>
+                    </div>
+                    <div id='etiquettes-pop'>
+                        <div class="etiquette-pop"> 
+                            <img src="./images/soleil-matin.jpg" class="img-etiq-pop" alt="hebergement-soleil-matin"/>
+                            <div class="text-etiquettes-populaires">
+                                <div class="txt-etiq-pop"> <strong>Hôtel le soleil du <br>matin</strong></div>
+                                <div class="sub-etiq-pop">Nuit à partir de 128<strong>€</strong></div>
+                                <div class="etoiles-pop">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="etiquette-pop"> 
+                            <img src="./images/heber-pop2.jpg" class="img-etiq-pop" alt="hebergement-pop2"/>
+                            <div class="text-etiquettes-populaires">
+                                <div class="txt-etiq-pop"> <strong>Au coeur de l'eau <br>Chambres d'hôtes</strong></div>
+                                <div class="sub-etiq-pop">Nuit à partir de 71<strong>€</strong></div>
+                                <div class="etoiles-pop">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="etiquette-pop"> 
+                            <img src="./images/heber-pop3.jpg" class="img-etiq-pop" alt="hebergement-pop3"/>
+                            <div class="text-etiquettes-populaires">
+                                <div class="txt-etiq-pop"> <strong>Hôtel Tout bleue et <br>Blanc</strong></div>
+                                <div class="sub-etiq-pop">Nuit à partir de 68<strong>€</strong></div>
+                                <div class="etoiles-pop">
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starb.svg" alt="note-etoile"/>
+                                    <img class="etoile" src="./images/starg.svg" alt="note-etoile"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="activite-marseille-title">Activités à Marseille</div>
+
+            <div id="activites-marseille">
+                <div class="long-card">
+                    <img class="img-long-card" src="./images/bateau.jpg" alt="bateau-marseille" />
+                    <div class="txt-long-card"> <strong>Vieux port</strong></div>
+                </div>
+                <div class="short-card">                    
+                        <div class="mid-card">
+                            <img class="img-mid-card" src="./images/pomegues.jpg" alt="port-de-pomegues" />
+                            <div class="txt-mid-card"><strong>Fort de Pomègues</strong></div>
+                        </div>
+                        <div class="small-card">
+                            <img class="img-small-card" src="./images/ile-de-frioul.jpg" alt="ile-de-frioul" />
+                            <div class="txt-small-card"><strong>Île de Frioul</strong></div>
+                        </div>
+                </div>
+
+                <div class="long-card">
+                    <img class="img-long-card" src="./images/calanques.jpg" alt="parc-calanques" />
+                    <div class="txt-long-card"> <strong>Parc National des Calanques</strong></div>
+                </div>
+
+                <div class="short-card">      
+                    <div class="small-card">
+                        <img class="img-small-card" src="./images/notre-dame.jpg" alt="notre-dame-de-la-garde" />
+                        <div class="txt-small-card"><strong>Notre-Dame-de-la-Garde</strong></div>
+                    </div>              
+                    <div class="mid-card">
+                        <img class="img-mid-card" src="./images/longchamp.jpg" alt="parc-longchamp" />
+                        <div class="txt-mid-card"><strong>Parc Longchamp</strong></div>
+                    </div>               
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <div class="column-footer"> 
+                <a href="#"><div class="title-nav-footer"><strong>A propos</strong></div></a>
+                <a href="#"><div class="nav-footer">Fonctionnement du site</div></a>
+                <a href="#"><div class="nav-footer">Conditions générales de vente</div></a>
+                <a href="#"><div class="nav-footer">Données et confidentialité</div></a>
+            </div>
+
+            <div class="column-footer"> 
+                <a href="#"><div class="title-nav-footer"><strong>Nos hébergements</strong></div></a>
+                <a href="#"><div class="nav-footer">Charte qualité</div></a>
+                <a href="#"><div class="nav-footer">Soumettre votre hôtel</div></a>
+            </div>
+
+            <div class="column-footer"> 
+                <a href='#'><div class="title-nav-footer"><strong>Assistance</strong></div></a>
+                <a href="#"><div class="nav-footer">Centre d'aide</div></a>
+                <a href="#"><div class="nav-footer">Nous contacter</div></a>
+            </div>
+        </footer>
+            
+    </body>
+</html>
