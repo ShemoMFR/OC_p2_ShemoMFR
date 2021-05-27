@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 * {
     box-sizing: border-box; /* Avoid padding problems */
 }
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 body {
     margin: 0; /* évite le comportement par défault body sur chrome & mozilla qui met une marge de 8px */
