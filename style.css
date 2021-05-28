@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
     box-sizing: border-box; /* Avoid padding problems */
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 
 body {
     margin: 0; /* évite le comportement par défault body sur chrome & mozilla qui met une marge de 8px */
@@ -542,15 +544,22 @@ a {
         width: 32%;
         margin: 0px;
         margin-bottom: 5px;
-
     }
 
     .etiquette-pop {
         width: 87%;
     }
 
-    .long-card, .small-card, .mid-card {
-        margin: auto;
+    #activites-marseille {
+        width: 100%;
+    }
+
+    .long-card, .short-card {
+        width: 24%;
+    }
+
+    .img-long-card, .img-mid-card, .img-small-card, .mid-card, .small-card {
+        width: 100%;
     }
     
 }
@@ -603,6 +612,8 @@ a {
 
    .long-card, .small-card, .mid-card {
        margin: auto;
+       margin-bottom: 10px;
+       margin-top: -10px;
    }
 }
 
@@ -797,6 +808,10 @@ a {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .short-card {
+        width: 100%;
     }
 
     .img-long-card, .img-mid-card, .img-small-card {
